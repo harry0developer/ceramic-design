@@ -394,7 +394,7 @@ p.w3agile {
 .w3ls-special-img {
     padding: 0;
     background:#000 url(../images/s1.jpg) no-repeat 0px 0px;
-    min-height: 234px;
+    min-height: 340px;
     background-size: cover;
     text-align: center;
     position: relative;
@@ -404,16 +404,17 @@ p.w3agile {
 }
 .agileits-special-info{
     text-align: center;
-          padding: 4em 1.3em;
+    padding: 2em 1.3em;
     background: #F5F5F5;
+    height: 340px;
 }
 .agileits-special-info h4{
-   color:#d7a929;
+    color:#d7a929;
     font-size: 1.6em;
     margin: 0px 0 0px;
     position: relative;
     letter-spacing: 2px;
-	    text-align: left;
+	text-align: left;
 }
 .agileits-special-info h4:after{
     content: '';
@@ -627,7 +628,7 @@ span.ttt {
     width: 30%;
     margin-right: 5%;
     padding: 2em 1em;
-    border: 1px solid #999;
+    /*border: 1px solid #999;*/
 }
 .agileits_team_grid:nth-child(3) {
     margin-right: 0%;
@@ -1219,8 +1220,8 @@ ul.agile_footer_grid_list li i{
 .agileinfo_copyright{
 	margin: 3em 0 0;
     padding: 1em 0;
-    border-top: 2px solid #828282;
-    border-bottom: 2px solid #828282;
+    /*border-top: 2px solid #828282;
+    border-bottom: 2px solid #828282;*/
     text-align: center;
 }
 .agileinfo_copyright p{
@@ -1234,7 +1235,11 @@ ul.agile_footer_grid_list li i{
 .agileinfo_copyright p a:hover{ 
 	color:#fff;
 }
+
 /*-- //footer --*/
+.footer {
+    background-color: #333646;
+}
 /*-- to-top --*/
 #toTop {
 	display: none;
@@ -2035,7 +2040,7 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
     bottom: -126%;
 }
 .w3ls-special-img {
-    min-height: 262px;
+    height: 340px;
 }
 .w3l_testimonial_grid {
     margin: 5em 2em 0;
@@ -2191,11 +2196,12 @@ p.w3agile {
 .agileits-special-info {
     float: left;
     width: 50%;
+    height: 320px;
 }
 .w3ls-special-img {
     float: left;
     width: 50%;
-	min-height: 234px;
+	min-height: 340px;
 }
 .w3l-special-grid {
     margin-top: 2em;
@@ -2771,7 +2777,7 @@ nav.navbar.navbar-default {
     padding: 2em 0;
 }
 .w3ls-special-img {
-    min-height: 263px;
+    min-height: 340px;
 }
 .stats {
     padding: 2em 0;
