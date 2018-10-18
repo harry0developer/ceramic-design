@@ -29,7 +29,10 @@ input[type="submit"],input[type="reset"],a,.w3l_banner_bottom_grid1 i,.w3layouts
 a:focus{
 	outline:none;
 }
-
+ 
+.flex-control-nav {
+    display: none !important;
+}
 /*-- banner --*/
 .banner {
     min-height: 785px;
@@ -292,10 +295,7 @@ a.w3_agile_vimeo:hover{
     font-size: 14px;
     line-height: 1.8em;
 }
-.agile-about-grid2{
-	background:url(../images/s1.jpg) center no-repeat;
-	min-height:350px;
-}
+ 
 .about-info-grids span.head-w3l {
     color: #0087c9;
 }
@@ -307,6 +307,7 @@ i.agile-sicon {
 }
 .agile-about-grids {
     padding: 5em 0 0;
+    text-align: center;
 }
 .agile-about {
     padding: 5em 0;
@@ -657,9 +658,10 @@ span.ttt {
 	top:-25%;
 	left:0%;
 }
-.w3l_testimonial_grid_pos img{
+/*.w3l_testimonial_grid_pos img{
 	margin:0 auto;
-}
+}*/
+
 .w3l_testimonial_grid p{
 	color:#999;
 	line-height:2em;

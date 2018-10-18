@@ -78,7 +78,7 @@ html[xmlns] .slides {display: block;}
 .flex-control-nav {
 	display: block;
     position: absolute;
-    left: 0%;
+    /*left: 0%;*/
     margin-left: 0px;
     top:25%;
 }
@@ -93,7 +93,7 @@ html[xmlns] .slides {display: block;}
     display: block;
     background: none;
     cursor: pointer;
-  text-indent: -9999px;
+  	text-indent: -9999px;
     border: none;
     color: #212121;
     background: #fff;
@@ -102,13 +102,13 @@ html[xmlns] .slides {display: block;}
     font-weight: 600;
 }
 .flex-control-nav li:first-child:before {
-    content: '';
+/*    content: '';
     background: #fff;
     width: 2px;
     height: 92px;
     position: absolute;
     top: -531%;
-    left: 43%;
+    left: 43%;*/
     /* transform: rotate(-90deg); 
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
